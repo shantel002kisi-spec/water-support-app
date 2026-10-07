@@ -1,0 +1,13 @@
+{
+  "name": "Water Support Without Barriers",
+  "short_name": "Water Support",
+  "description": "Letters, customer references and community support in one personal workspace.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f8f7",
+  "theme_color": "#187b69",
+  "lang": "en-GB",
+  "icons": [{ "src": "/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
