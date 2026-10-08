@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { PdfUploadBridge } from "@/components/support/PdfUploadBridge";
 
 export const metadata: Metadata = {
   title: "Water Support Without Barriers",
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-GB">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <PdfUploadBridge />
+        {children}
+      </body>
     </html>
   );
 }
